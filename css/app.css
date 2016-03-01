@@ -1,0 +1,196 @@
+body{
+  margin: auto 0;
+  overflow: auto;
+}
+
+a{
+  text-decoration: none;
+}
+#bid{
+  background-image: url('../media/restaurant-hero-image.jpg');
+  background-size: 100% auto;
+}
+#bid2{
+  background-color: green;
+}
+p{
+word-wrap: normal;
+font-size: 125  %;
+}
+.bar{
+  width: 100%;
+  height: 9vh;
+  background-color: rgba(0,0,0,.5);
+  margin: 0;
+  color: white;
+}
+.fizzle{
+  font-family: 'Open Sans';
+  font-weight: 100;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 15px;
+
+}
+.heading{
+  color: white;
+  font-size: 500%;
+  font-weight: 600;
+  margin-left: 28%;
+  margin-top: 13%;
+}
+#mn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.ordBtn{
+  background-color: #59a673;
+  width: 60%;
+  height: 10vh;
+  margin-left: 18%;
+  margin-top: 10%;
+  padding-top: 2vh;
+  border-radius: 5px;
+}
+.ordBtn :hover{
+  font-style: italic;
+}
+.pao{
+  font-weight: 600;
+  margin-left: 33%;
+}
+#subSec{
+  margin-top: 1%;
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+}
+.shop{
+  margin: 5vh;
+  width: 20%;
+}
+#so{
+  color: black;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+.fdiv{
+  padding-right: 5vh;
+  font-size: 20px;
+}
+#footy{
+  background-color: black;
+  position: absolute;
+}
+
+/*specific to orders page starts below*/
+body{
+    background: linear-gradient(to bottom left, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+}
+#mainy{
+  display: flex;
+  padding: 5vh;
+  /*background: linear-gradient(to bottom left, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);*/
+  margin-left: 15%;
+}
+#left{
+  margin-right: 1%;
+}
+#fSelL{
+  height: 30vh;
+  width: 70vh;
+}
+#fSelR{
+  height: 87vh;
+  width: 60vh;
+  position: absolute;
+  top: 13.85%;
+  border: none;
+}
+#area{
+  position: absolute;
+  bottom: 0;
+  z-index:5;
+  border: none;
+  text-align: right;
+}
+option{
+  font-size: 300%;
+}
+textarea{
+  resize: none;
+  font-size: 2em;
+}
+#numIt{
+  resize: none;
+  font-size: 2em;
+  float: left;
+}
+h5{
+  margin: 0;
+  font-style: italic;
+}
+#aitBtn{
+ width: 10vw;
+ height: 5vh;
+ margin:2%;
+ margin-top: 0;
+}
+.mnp{
+  float: right;
+}
+price{
+  float:right;
+}
+.btn{
+  color: white;
+  font-size: 1em;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+ #left :hover{
+  font-style: italic;
+  font-weight: bolder;
+}
+#dIt{
+  height: 10vh;
+  width: 30vw;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+.sta{
+  background-color: #faffbd;
+}
+.texty{
+  margin-top: 1vh;
+}
+#texty1{
+  margin-top: 2vh;
+}
+.spTxt{
+  color: black;
+  font-style: italic;
+  font-size: 200%;
+  font-weight: bolder;
+  float: left;
+  width: 100%;
+}
+.op{
+  float: left;
+  width: 70%;
+}
+.opP{
+  position: relative;
+  float: right;
+  z-index: 3;
+  color: black;
+  text-align: right;
+}
